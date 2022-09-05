@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Oldenburg&family=Righteous&family=Sarala&display=swap');
+
+body {
+  background-color: rgb(255, 190, 164);
+  color: #FFF;
+}
+
+ a {
+   font-size: 30px;
+ }
+
+ .conta{
+   color: green;
+ }

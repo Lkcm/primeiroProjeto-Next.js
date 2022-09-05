@@ -1,14 +1,22 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import { HomePage } from '../components/Tweets'
+
 
 function Home() {
   return (
   <div>
-    <h1>Home</h1>
+    <h1
+      style={{
+        fontSize : '5em',
+        fontFamily : 'Sarala',
+      }}
+    >Home</h1>
     <Link href="http://localhost:3000/segunda">
     <a>segunda</a>
     </Link>
     <Contador/>
+    <HomePage/>
     </div>
   )
 }
